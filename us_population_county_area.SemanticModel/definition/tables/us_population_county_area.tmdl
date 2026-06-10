@@ -1,0 +1,46 @@
+table us_population_county_area
+	lineageTag: a16f291c-a1db-4d17-89f7-3aa9811b8fcd
+	sourceLineageTag: [dbo].[us_population_county_area]
+
+	column AA
+		dataType: string
+		lineageTag: 6474a8f5-b2d3-45e4-b262-513cf4bf671b
+		sourceLineageTag: AA
+		summarizeBy: none
+		sourceColumn: AA
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column Aruba
+		dataType: string
+		lineageTag: ad29ece7-bc7a-4626-8e40-29ad046b6d56
+		sourceLineageTag: Aruba
+		summarizeBy: none
+		sourceColumn: Aruba
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column 180
+		dataType: int64
+		formatString: 0
+		lineageTag: a45ec249-7adb-44cd-bc05-656a5be05228
+		sourceLineageTag: 180
+		summarizeBy: sum
+		sourceColumn: 180
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	partition us_population_county_area = entity
+		mode: directLake
+		source
+			entityName: us_population_county_area
+			expressionSource: 'DirectLake - PublicHolidays_395'
+
+	changedProperty = IsHidden
+

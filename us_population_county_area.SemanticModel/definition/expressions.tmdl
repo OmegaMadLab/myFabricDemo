@@ -1,0 +1,11 @@
+expression 'DirectLake - PublicHolidays_395' =
+		let
+		    Source = AzureStorage.DataLake("https://onelake.dfs.fabric.microsoft.com/f2751747-0617-436d-b8d6-1d179defac13/113187c7-52bf-4f91-8fb8-f8769ad9c0ce", [HierarchicalNavigation=true])
+		in
+		    Source
+	lineageTag: d4c0aaa1-d6fd-42e1-89a1-ef801071c3dd
+
+	annotation PBI_IncludeFutureArtifacts = False
+
+	annotation PBI_RemovedChildren = [{"remoteItemId":{"analysisServicesObject":{"sourceName":null,"sourceLineageTag":"[dbo].[publicholidays_copy]"}},"objectType":"Table"},{"remoteItemId":{"analysisServicesObject":{"sourceName":null,"sourceLineageTag":"[dbo].[publicholidays]"}},"objectType":"Table"}]
+
