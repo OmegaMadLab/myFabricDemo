@@ -9,6 +9,10 @@
     {
       "name": "targetWS",
       "value": "f200a11e-4047-44e4-9702-49f5633878c8"
+    },
+    {
+      "name": "newvar",
+      "value": "ddd"
     }
   ]
 }

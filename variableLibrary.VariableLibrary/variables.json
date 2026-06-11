@@ -12,6 +12,12 @@
       "note": "",
       "type": "String",
       "value": "f2751747-0617-436d-b8d6-1d179defac13"
+    },
+    {
+      "name": "newvar",
+      "note": "",
+      "type": "String",
+      "value": "aaa"
     }
   ]
 }

@@ -9,6 +9,10 @@
     {
       "name": "targetWS",
       "value": "7a66c432-8c17-4f37-98d2-a5997616c1c5"
+    },
+    {
+      "name": "newvar",
+      "value": "ccc"
     }
   ]
 }
