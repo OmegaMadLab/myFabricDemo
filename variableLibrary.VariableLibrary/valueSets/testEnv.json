@@ -1,0 +1,14 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/variableLibrary/definition/valueSet/1.0.0/schema.json",
+  "name": "testEnv",
+  "variableOverrides": [
+    {
+      "name": "targetLH",
+      "value": "fdec8455-d344-41a3-ac90-23b7b4765287"
+    },
+    {
+      "name": "targetWS",
+      "value": "dffc7441-2dbb-48ab-b5be-5f9c5cc2f1a8"
+    }
+  ]
+}
