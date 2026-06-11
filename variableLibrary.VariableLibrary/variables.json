@@ -1,0 +1,17 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/variableLibrary/definition/variables/1.0.0/schema.json",
+  "variables": [
+    {
+      "name": "targetLH",
+      "note": "",
+      "type": "String",
+      "value": "113187c7-52bf-4f91-8fb8-f8769ad9c0ce"
+    },
+    {
+      "name": "targetWS",
+      "note": "",
+      "type": "String",
+      "value": "f2751747-0617-436d-b8d6-1d179defac13"
+    }
+  ]
+}
